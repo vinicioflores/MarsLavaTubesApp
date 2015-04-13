@@ -1,0 +1,1585 @@
+fileFormatVersion: 2
+guid: 8d1bb5224c7a91145a08491b19b35ff2
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.001
+    100004: Armature.002
+    100006: Bone
+    100008: Bone_end
+    100010: Camera
+    100012: Cube.001
+    100014: DEF-finger_index.01.L.01
+    100016: DEF-finger_index.01.L.01_end
+    100018: DEF-finger_index.01.L.02
+    100020: DEF-finger_index.01.L.02_end
+    100022: DEF-finger_index.01.R.01
+    100024: DEF-finger_index.01.R.01_end
+    100026: DEF-finger_index.01.R.02
+    100028: DEF-finger_index.01.R.02_end
+    100030: DEF-finger_index.02.L
+    100032: DEF-finger_index.02.L_end
+    100034: DEF-finger_index.02.R
+    100036: DEF-finger_index.02.R_end
+    100038: DEF-finger_index.03.L
+    100040: DEF-finger_index.03.L_end
+    100042: DEF-finger_index.03.R
+    100044: DEF-finger_index.03.R_end
+    100046: DEF-finger_middle.01.L.01
+    100048: DEF-finger_middle.01.L.01_end
+    100050: DEF-finger_middle.01.L.02
+    100052: DEF-finger_middle.01.L.02_end
+    100054: DEF-finger_middle.01.R.01
+    100056: DEF-finger_middle.01.R.01_end
+    100058: DEF-finger_middle.01.R.02
+    100060: DEF-finger_middle.01.R.02_end
+    100062: DEF-finger_middle.02.L
+    100064: DEF-finger_middle.02.L_end
+    100066: DEF-finger_middle.02.R
+    100068: DEF-finger_middle.02.R_end
+    100070: DEF-finger_middle.03.L
+    100072: DEF-finger_middle.03.L_end
+    100074: DEF-finger_middle.03.R
+    100076: DEF-finger_middle.03.R_end
+    100078: DEF-finger_ring.01.L.01
+    100080: DEF-finger_ring.01.L.01_end
+    100082: DEF-finger_ring.01.L.02
+    100084: DEF-finger_ring.01.L.02_end
+    100086: DEF-finger_ring.01.R.01
+    100088: DEF-finger_ring.01.R.01_end
+    100090: DEF-finger_ring.01.R.02
+    100092: DEF-finger_ring.01.R.02_end
+    100094: DEF-finger_ring.02.L
+    100096: DEF-finger_ring.02.L_end
+    100098: DEF-finger_ring.02.R
+    100100: DEF-finger_ring.02.R_end
+    100102: DEF-finger_ring.03.L
+    100104: DEF-finger_ring.03.L_end
+    100106: DEF-finger_ring.03.R
+    100108: DEF-finger_ring.03.R_end
+    100110: DEF-foot.L
+    100112: DEF-foot.L_end
+    100114: DEF-foot.R
+    100116: DEF-foot.R_end
+    100118: DEF-forearm.L.01
+    100120: DEF-forearm.L.01_end
+    100122: DEF-forearm.L.02
+    100124: DEF-forearm.L.02_end
+    100126: DEF-forearm.R.01
+    100128: DEF-forearm.R.01_end
+    100130: DEF-forearm.R.02
+    100132: DEF-forearm.R.02_end
+    100134: DEF-hand.L
+    100136: DEF-hand.L_end
+    100138: DEF-hand.R
+    100140: DEF-hand.R_end
+    100142: DEF-head
+    100144: DEF-head_end
+    100146: DEF-hips
+    100148: DEF-hips_end
+    100150: DEF-neck
+    100152: DEF-neck_end
+    100154: DEF-palm.01.L
+    100156: DEF-palm.01.L_end
+    100158: DEF-palm.01.R
+    100160: DEF-palm.01.R_end
+    100162: DEF-palm.02.L
+    100164: DEF-palm.02.L_end
+    100166: DEF-palm.02.R
+    100168: DEF-palm.02.R_end
+    100170: DEF-palm.03.L
+    100172: DEF-palm.03.L_end
+    100174: DEF-palm.03.R
+    100176: DEF-palm.03.R_end
+    100178: DEF-ribs
+    100180: DEF-ribs_end
+    100182: DEF-shin.L.01
+    100184: DEF-shin.L.01_end
+    100186: DEF-shin.L.02
+    100188: DEF-shin.L.02_end
+    100190: DEF-shin.R.01
+    100192: DEF-shin.R.01_end
+    100194: DEF-shin.R.02
+    100196: DEF-shin.R.02_end
+    100198: DEF-shoulder.L
+    100200: DEF-shoulder.L_end
+    100202: DEF-shoulder.R
+    100204: DEF-shoulder.R_end
+    100206: DEF-spine
+    100208: DEF-spine_end
+    100210: DEF-thigh.L.01
+    100212: DEF-thigh.L.01_end
+    100214: DEF-thigh.L.02
+    100216: DEF-thigh.L.02_end
+    100218: DEF-thigh.R.01
+    100220: DEF-thigh.R.01_end
+    100222: DEF-thigh.R.02
+    100224: DEF-thigh.R.02_end
+    100226: DEF-thumb.01.L.01
+    100228: DEF-thumb.01.L.01_end
+    100230: DEF-thumb.01.L.02
+    100232: DEF-thumb.01.L.02_end
+    100234: DEF-thumb.01.R.01
+    100236: DEF-thumb.01.R.01_end
+    100238: DEF-thumb.01.R.02
+    100240: DEF-thumb.01.R.02_end
+    100242: DEF-thumb.02.L
+    100244: DEF-thumb.02.L_end
+    100246: DEF-thumb.02.R
+    100248: DEF-thumb.02.R_end
+    100250: DEF-thumb.03.L
+    100252: DEF-thumb.03.L_end
+    100254: DEF-thumb.03.R
+    100256: DEF-thumb.03.R_end
+    100258: DEF-toe.L
+    100260: DEF-toe.L_end
+    100262: DEF-toe.R
+    100264: DEF-toe.R_end
+    100266: DEF-upper_arm.L.01
+    100268: DEF-upper_arm.L.01_end
+    100270: DEF-upper_arm.L.02
+    100272: DEF-upper_arm.L.02_end
+    100274: DEF-upper_arm.R.01
+    100276: DEF-upper_arm.R.01_end
+    100278: DEF-upper_arm.R.02
+    100280: DEF-upper_arm.R.02_end
+    100282: finger_index.01.L
+    100284: finger_index.01.L 1
+    100286: finger_index.01.L 2
+    100288: finger_index.01.R
+    100290: finger_index.01.R 1
+    100292: finger_index.01.R 2
+    100294: finger_index.02.L
+    100296: finger_index.02.L 1
+    100298: finger_index.02.L 2
+    100300: finger_index.02.R
+    100302: finger_index.02.R 1
+    100304: finger_index.02.R 2
+    100306: finger_index.03.L
+    100308: finger_index.03.L 1
+    100310: finger_index.03.L 2
+    100312: finger_index.03.L_end
+    100314: finger_index.03.L_end 1
+    100316: finger_index.03.L_end 2
+    100318: finger_index.03.R
+    100320: finger_index.03.R 1
+    100322: finger_index.03.R 2
+    100324: finger_index.03.R_end
+    100326: finger_index.03.R_end 1
+    100328: finger_index.03.R_end 2
+    100330: finger_index.L
+    100332: finger_index.L_end
+    100334: finger_index.R
+    100336: finger_index.R_end
+    100338: finger_middle.01.L
+    100340: finger_middle.01.L 1
+    100342: finger_middle.01.L 2
+    100344: finger_middle.01.R
+    100346: finger_middle.01.R 1
+    100348: finger_middle.01.R 2
+    100350: finger_middle.02.L
+    100352: finger_middle.02.L 1
+    100354: finger_middle.02.L 2
+    100356: finger_middle.02.R
+    100358: finger_middle.02.R 1
+    100360: finger_middle.02.R 2
+    100362: finger_middle.03.L
+    100364: finger_middle.03.L 1
+    100366: finger_middle.03.L 2
+    100368: finger_middle.03.L_end
+    100370: finger_middle.03.L_end 1
+    100372: finger_middle.03.L_end 2
+    100374: finger_middle.03.R
+    100376: finger_middle.03.R 1
+    100378: finger_middle.03.R 2
+    100380: finger_middle.03.R_end
+    100382: finger_middle.03.R_end 1
+    100384: finger_middle.03.R_end 2
+    100386: finger_middle.L
+    100388: finger_middle.L_end
+    100390: finger_middle.R
+    100392: finger_middle.R_end
+    100394: finger_pinky.01.L
+    100396: finger_pinky.01.R
+    100398: finger_pinky.02.L
+    100400: finger_pinky.02.R
+    100402: finger_pinky.03.L
+    100404: finger_pinky.03.L_end
+    100406: finger_pinky.03.R
+    100408: finger_pinky.03.R_end
+    100410: finger_ring.01.L
+    100412: finger_ring.01.L 1
+    100414: finger_ring.01.L 2
+    100416: finger_ring.01.R
+    100418: finger_ring.01.R 1
+    100420: finger_ring.01.R 2
+    100422: finger_ring.02.L
+    100424: finger_ring.02.L 1
+    100426: finger_ring.02.L 2
+    100428: finger_ring.02.R
+    100430: finger_ring.02.R 1
+    100432: finger_ring.02.R 2
+    100434: finger_ring.03.L
+    100436: finger_ring.03.L 1
+    100438: finger_ring.03.L 2
+    100440: finger_ring.03.L_end
+    100442: finger_ring.03.L_end 1
+    100444: finger_ring.03.L_end 2
+    100446: finger_ring.03.R
+    100448: finger_ring.03.R 1
+    100450: finger_ring.03.R 2
+    100452: finger_ring.03.R_end
+    100454: finger_ring.03.R_end 1
+    100456: finger_ring.03.R_end 2
+    100458: finger_ring.L
+    100460: finger_ring.L_end
+    100462: finger_ring.R
+    100464: finger_ring.R_end
+    100466: foot.L
+    100468: foot.L 1
+    100470: foot.L 2
+    100472: foot.R
+    100474: foot.R 1
+    100476: foot.R 2
+    100478: foot_ik.L
+    100480: foot_ik.R
+    100482: foot_roll.L
+    100484: foot_roll.L_end
+    100486: foot_roll.R
+    100488: foot_roll.R_end
+    100490: forearm.L
+    100492: forearm.L 1
+    100494: forearm.L 2
+    100496: forearm.R
+    100498: forearm.R 1
+    100500: forearm.R 2
+    100502: hand.L
+    100504: hand.L 1
+    100506: hand.L 2
+    100508: hand.L_end
+    100510: hand.R
+    100512: hand.R 1
+    100514: hand.R 2
+    100516: hand.R_end
+    100518: hand_ik.L
+    100520: hand_ik.L_end
+    100522: hand_ik.R
+    100524: hand_ik.R_end
+    100526: head
+    100528: head 1
+    100530: head 2
+    100532: head_end
+    100534: head_end 1
+    100536: heel.02.L
+    100538: heel.02.L 1
+    100540: heel.02.L_end
+    100542: heel.02.L_end 1
+    100544: heel.02.R
+    100546: heel.02.R 1
+    100548: heel.02.R_end
+    100550: heel.02.R_end 1
+    100552: heel.L
+    100554: heel.L 1
+    100556: heel.R
+    100558: heel.R 1
+    100560: hips
+    100562: hips 1
+    100564: hips 2
+    100566: Lamp
+    100568: MCH-finger_index.01.L
+    100570: MCH-finger_index.01.L.tip
+    100572: MCH-finger_index.01.L.tip_end
+    100574: MCH-finger_index.01.R
+    100576: MCH-finger_index.01.R.tip
+    100578: MCH-finger_index.01.R.tip_end
+    100580: MCH-finger_index.02.L
+    100582: MCH-finger_index.02.R
+    100584: MCH-finger_index.03.L
+    100586: MCH-finger_index.03.R
+    100588: MCH-finger_middle.01.L
+    100590: MCH-finger_middle.01.L.tip
+    100592: MCH-finger_middle.01.L.tip_end
+    100594: MCH-finger_middle.01.R
+    100596: MCH-finger_middle.01.R.tip
+    100598: MCH-finger_middle.01.R.tip_end
+    100600: MCH-finger_middle.02.L
+    100602: MCH-finger_middle.02.R
+    100604: MCH-finger_middle.03.L
+    100606: MCH-finger_middle.03.R
+    100608: MCH-finger_ring.01.L
+    100610: MCH-finger_ring.01.L.tip
+    100612: MCH-finger_ring.01.L.tip_end
+    100614: MCH-finger_ring.01.R
+    100616: MCH-finger_ring.01.R.tip
+    100618: MCH-finger_ring.01.R.tip_end
+    100620: MCH-finger_ring.02.L
+    100622: MCH-finger_ring.02.R
+    100624: MCH-finger_ring.03.L
+    100626: MCH-finger_ring.03.R
+    100628: MCH-foot.L
+    100630: MCH-foot.L.rocker.01
+    100632: MCH-foot.L.rocker.02
+    100634: MCH-foot.L.roll.01
+    100636: MCH-foot.L.roll.02
+    100638: MCH-foot.L_end
+    100640: MCH-foot.R
+    100642: MCH-foot.R.rocker.01
+    100644: MCH-foot.R.rocker.02
+    100646: MCH-foot.R.roll.01
+    100648: MCH-foot.R.roll.02
+    100650: MCH-foot.R_end
+    100652: MCH-foot_ik_target.L
+    100654: MCH-foot_ik_target.L_end
+    100656: MCH-foot_ik_target.R
+    100658: MCH-foot_ik_target.R_end
+    100660: MCH-forearm.L.tip
+    100662: MCH-forearm.L.tip_end
+    100664: MCH-forearm.R.tip
+    100666: MCH-forearm.R.tip_end
+    100668: MCH-forearm_ik.L
+    100670: MCH-forearm_ik.L_end
+    100672: MCH-forearm_ik.R
+    100674: MCH-forearm_ik.R_end
+    100676: MCH-head
+    100678: MCH-head.001
+    100680: MCH-head.001_end
+    100682: MCH-head.02
+    100684: MCH-head.socket1
+    100686: MCH-head.socket1_end
+    100688: MCH-head.socket2
+    100690: MCH-head_end
+    100692: MCH-hips.flex
+    100694: MCH-hips.flex_s
+    100696: MCH-hips.reverse
+    100698: MCH-hips.reverse_end
+    100700: MCH-neck
+    100702: MCH-neck.02
+    100704: MCH-neck.child
+    100706: MCH-neck.child_end
+    100708: MCH-neck.follow
+    100710: MCH-neck_end
+    100712: MCH-par_spine
+    100714: MCH-ribs.flex
+    100716: MCH-ribs.flex_s
+    100718: MCH-ribs.reverse
+    100720: MCH-ribs.reverse_end
+    100722: MCH-shin.L.tip
+    100724: MCH-shin.L.tip_end
+    100726: MCH-shin.R.tip
+    100728: MCH-shin.R.tip_end
+    100730: MCH-shin_ik.L
+    100732: MCH-shin_ik.L_end
+    100734: MCH-shin_ik.R
+    100736: MCH-shin_ik.R_end
+    100738: MCH-spine.flex
+    100740: MCH-spine.flex_s
+    100742: MCH-spine.reverse
+    100744: MCH-spine.reverse_end
+    100746: MCH-sub_hips
+    100748: MCH-sub_hips_end
+    100750: MCH-sub_ribs
+    100752: MCH-sub_ribs_end
+    100754: MCH-sub_spine
+    100756: MCH-sub_spine_end
+    100758: MCH-thigh.L.hinge
+    100760: MCH-thigh.L.socket1
+    100762: MCH-thigh.L.socket1_end
+    100764: MCH-thigh.L.socket2
+    100766: MCH-thigh.L.tip
+    100768: MCH-thigh.L.tip_end
+    100770: MCH-thigh.R.hinge
+    100772: MCH-thigh.R.socket1
+    100774: MCH-thigh.R.socket1_end
+    100776: MCH-thigh.R.socket2
+    100778: MCH-thigh.R.tip
+    100780: MCH-thigh.R.tip_end
+    100782: MCH-thigh_ik.L
+    100784: MCH-thigh_ik.R
+    100786: MCH-thumb.01.L
+    100788: MCH-thumb.01.L.tip
+    100790: MCH-thumb.01.L.tip_end
+    100792: MCH-thumb.01.R
+    100794: MCH-thumb.01.R.tip
+    100796: MCH-thumb.01.R.tip_end
+    100798: MCH-thumb.02.L
+    100800: MCH-thumb.02.R
+    100802: MCH-thumb.03.L
+    100804: MCH-thumb.03.R
+    100806: MCH-toe.L.parent
+    100808: MCH-toe.L.socket1
+    100810: MCH-toe.L.socket2
+    100812: MCH-toe.L.socket2_end
+    100814: MCH-toe.R.parent
+    100816: MCH-toe.R.socket1
+    100818: MCH-toe.R.socket2
+    100820: MCH-toe.R.socket2_end
+    100822: MCH-torso.01
+    100824: MCH-torso.02
+    100826: MCH-torso.02_end
+    100828: MCH-upper_arm.L.hinge
+    100830: MCH-upper_arm.L.socket1
+    100832: MCH-upper_arm.L.socket1_end
+    100834: MCH-upper_arm.L.socket2
+    100836: MCH-upper_arm.L.tip
+    100838: MCH-upper_arm.L.tip_end
+    100840: MCH-upper_arm.R.hinge
+    100842: MCH-upper_arm.R.socket1
+    100844: MCH-upper_arm.R.socket1_end
+    100846: MCH-upper_arm.R.socket2
+    100848: MCH-upper_arm.R.tip
+    100850: MCH-upper_arm.R.tip_end
+    100852: MCH-upper_arm_ik.L
+    100854: MCH-upper_arm_ik.R
+    100856: neck
+    100858: neck 1
+    100860: neck 2
+    100862: ORG-finger_index.01.L
+    100864: ORG-finger_index.01.R
+    100866: ORG-finger_index.02.L
+    100868: ORG-finger_index.02.R
+    100870: ORG-finger_index.03.L
+    100872: ORG-finger_index.03.R
+    100874: ORG-finger_middle.01.L
+    100876: ORG-finger_middle.01.R
+    100878: ORG-finger_middle.02.L
+    100880: ORG-finger_middle.02.R
+    100882: ORG-finger_middle.03.L
+    100884: ORG-finger_middle.03.R
+    100886: ORG-finger_ring.01.L
+    100888: ORG-finger_ring.01.R
+    100890: ORG-finger_ring.02.L
+    100892: ORG-finger_ring.02.R
+    100894: ORG-finger_ring.03.L
+    100896: ORG-finger_ring.03.R
+    100898: ORG-foot.L
+    100900: ORG-foot.R
+    100902: ORG-forearm.L
+    100904: ORG-forearm.R
+    100906: ORG-hand.L
+    100908: ORG-hand.R
+    100910: ORG-head
+    100912: ORG-head_end
+    100914: ORG-heel.02.L
+    100916: ORG-heel.02.L_end
+    100918: ORG-heel.02.R
+    100920: ORG-heel.02.R_end
+    100922: ORG-heel.L
+    100924: ORG-heel.R
+    100926: ORG-hips
+    100928: ORG-neck
+    100930: ORG-palm.01.L
+    100932: ORG-palm.01.R
+    100934: ORG-palm.02.L
+    100936: ORG-palm.02.R
+    100938: ORG-palm.03.L
+    100940: ORG-palm.03.R
+    100942: ORG-ribs
+    100944: ORG-shin.L
+    100946: ORG-shin.R
+    100948: ORG-shoulder.L
+    100950: ORG-shoulder.R
+    100952: ORG-spine
+    100954: ORG-thigh.L
+    100956: ORG-thigh.R
+    100958: ORG-thumb.01.L
+    100960: ORG-thumb.01.R
+    100962: ORG-thumb.02.L
+    100964: ORG-thumb.02.R
+    100966: ORG-thumb.03.L
+    100968: ORG-thumb.03.R
+    100970: ORG-toe.L
+    100972: ORG-toe.R
+    100974: ORG-upper_arm.L
+    100976: ORG-upper_arm.R
+    100978: palm.01.L
+    100980: palm.01.L 1
+    100982: palm.01.R
+    100984: palm.01.R 1
+    100986: palm.02.L
+    100988: palm.02.L 1
+    100990: palm.02.R
+    100992: palm.02.R 1
+    100994: palm.03.L
+    100996: palm.03.L 1
+    100998: palm.03.R
+    101000: palm.03.R 1
+    101002: palm.04.L
+    101004: palm.04.R
+    101006: palm.L
+    101008: palm.L_end
+    101010: palm.R
+    101012: palm.R_end
+    101014: Point
+    101016: Point.001
+    101018: Point.002
+    101020: ribs
+    101022: ribs 1
+    101024: ribs 2
+    101026: rig
+    101028: root
+    101030: //RootNode
+    101032: shin.L
+    101034: shin.L 1
+    101036: shin.L 2
+    101038: shin.R
+    101040: shin.R 1
+    101042: shin.R 2
+    101044: shoulder.L
+    101046: shoulder.L 1
+    101048: shoulder.L 2
+    101050: shoulder.L_end
+    101052: shoulder.R
+    101054: shoulder.R 1
+    101056: shoulder.R 2
+    101058: shoulder.R_end
+    101060: spine
+    101062: spine 1
+    101064: spine 2
+    101066: Sun
+    101068: thigh.L
+    101070: thigh.L 1
+    101072: thigh.L 2
+    101074: thigh.R
+    101076: thigh.R 1
+    101078: thigh.R 2
+    101080: thigh_pole.L
+    101082: thigh_pole.L_end
+    101084: thigh_pole.R
+    101086: thigh_pole.R_end
+    101088: thumb.01.L
+    101090: thumb.01.L 1
+    101092: thumb.01.L 2
+    101094: thumb.01.R
+    101096: thumb.01.R 1
+    101098: thumb.01.R 2
+    101100: thumb.02.L
+    101102: thumb.02.L 1
+    101104: thumb.02.L 2
+    101106: thumb.02.R
+    101108: thumb.02.R 1
+    101110: thumb.02.R 2
+    101112: thumb.03.L
+    101114: thumb.03.L 1
+    101116: thumb.03.L 2
+    101118: thumb.03.L_end
+    101120: thumb.03.L_end 1
+    101122: thumb.03.L_end 2
+    101124: thumb.03.R
+    101126: thumb.03.R 1
+    101128: thumb.03.R 2
+    101130: thumb.03.R_end
+    101132: thumb.03.R_end 1
+    101134: thumb.03.R_end 2
+    101136: thumb.L
+    101138: thumb.L_end
+    101140: thumb.R
+    101142: thumb.R_end
+    101144: toe.L
+    101146: toe.L 1
+    101148: toe.L 2
+    101150: toe.L_end
+    101152: toe.L_end 1
+    101154: toe.L_end 2
+    101156: toe.R
+    101158: toe.R 1
+    101160: toe.R 2
+    101162: toe.R_end
+    101164: toe.R_end 1
+    101166: toe.R_end 2
+    101168: torso
+    101170: upper_arm.L
+    101172: upper_arm.L 1
+    101174: upper_arm.L 2
+    101176: upper_arm.R
+    101178: upper_arm.R 1
+    101180: upper_arm.R 2
+    101182: upper_arm_pole.L
+    101184: upper_arm_pole.L_end
+    101186: upper_arm_pole.R
+    101188: upper_arm_pole.R_end
+    101190: VIS-foot_ik.L
+    101192: VIS-foot_ik.L_end
+    101194: VIS-foot_ik.R
+    101196: VIS-foot_ik.R_end
+    101198: VIS-hand_ik.L
+    101200: VIS-hand_ik.L_end
+    101202: VIS-hand_ik.R
+    101204: VIS-hand_ik.R_end
+    101206: VIS-thigh_pole.L
+    101208: VIS-thigh_pole.L_end
+    101210: VIS-thigh_pole.R
+    101212: VIS-thigh_pole.R_end
+    101214: VIS-upper_arm_pole.L
+    101216: VIS-upper_arm_pole.L_end
+    101218: VIS-upper_arm_pole.R
+    101220: VIS-upper_arm_pole.R_end
+    101222: WGT-finger_index.01.L
+    101224: WGT-finger_index.01.R
+    101226: WGT-finger_index.02.L
+    101228: WGT-finger_index.02.R
+    101230: WGT-finger_index.03.L
+    101232: WGT-finger_index.03.R
+    101234: WGT-finger_index.L
+    101236: WGT-finger_index.R
+    101238: WGT-finger_middle.01.L
+    101240: WGT-finger_middle.01.R
+    101242: WGT-finger_middle.02.L
+    101244: WGT-finger_middle.02.R
+    101246: WGT-finger_middle.03.L
+    101248: WGT-finger_middle.03.R
+    101250: WGT-finger_middle.L
+    101252: WGT-finger_middle.R
+    101254: WGT-finger_ring.01.L
+    101256: WGT-finger_ring.01.R
+    101258: WGT-finger_ring.02.L
+    101260: WGT-finger_ring.02.R
+    101262: WGT-finger_ring.03.L
+    101264: WGT-finger_ring.03.R
+    101266: WGT-finger_ring.L
+    101268: WGT-finger_ring.R
+    101270: WGT-foot.L
+    101272: WGT-foot.R
+    101274: WGT-foot_ik.L
+    101276: WGT-foot_ik.R
+    101278: WGT-foot_roll.L
+    101280: WGT-foot_roll.R
+    101282: WGT-forearm.L
+    101284: WGT-forearm.R
+    101286: WGT-hand.L
+    101288: WGT-hand.R
+    101290: WGT-hand_ik.L
+    101292: WGT-hand_ik.R
+    101294: WGT-head
+    101296: WGT-hips
+    101298: WGT-neck
+    101300: WGT-palm.L
+    101302: WGT-palm.R
+    101304: WGT-ribs
+    101306: WGT-root
+    101308: WGT-shin.L
+    101310: WGT-shin.R
+    101312: WGT-shoulder.L
+    101314: WGT-shoulder.R
+    101316: WGT-spine
+    101318: WGT-thigh.L
+    101320: WGT-thigh.R
+    101322: WGT-thigh_pole.L
+    101324: WGT-thigh_pole.R
+    101326: WGT-thumb.01.L
+    101328: WGT-thumb.01.R
+    101330: WGT-thumb.02.L
+    101332: WGT-thumb.02.R
+    101334: WGT-thumb.03.L
+    101336: WGT-thumb.03.R
+    101338: WGT-thumb.L
+    101340: WGT-thumb.R
+    101342: WGT-toe.L
+    101344: WGT-toe.R
+    101346: WGT-torso
+    101348: WGT-upper_arm.L
+    101350: WGT-upper_arm.R
+    101352: WGT-upper_arm_pole.L
+    101354: WGT-upper_arm_pole.R
+    101356: WGT-VIS-foot_ik.L
+    101358: WGT-VIS-foot_ik.R
+    101360: WGT-VIS-hand_ik.L
+    101362: WGT-VIS-hand_ik.R
+    101364: WGT-VIS-thigh_pole.L
+    101366: WGT-VIS-thigh_pole.R
+    101368: WGT-VIS-upper_arm_pole.L
+    101370: WGT-VIS-upper_arm_pole.R
+    400000: Armature
+    400002: Armature.001
+    400004: Armature.002
+    400006: Bone
+    400008: Bone_end
+    400010: Camera
+    400012: Cube.001
+    400014: DEF-finger_index.01.L.01
+    400016: DEF-finger_index.01.L.01_end
+    400018: DEF-finger_index.01.L.02
+    400020: DEF-finger_index.01.L.02_end
+    400022: DEF-finger_index.01.R.01
+    400024: DEF-finger_index.01.R.01_end
+    400026: DEF-finger_index.01.R.02
+    400028: DEF-finger_index.01.R.02_end
+    400030: DEF-finger_index.02.L
+    400032: DEF-finger_index.02.L_end
+    400034: DEF-finger_index.02.R
+    400036: DEF-finger_index.02.R_end
+    400038: DEF-finger_index.03.L
+    400040: DEF-finger_index.03.L_end
+    400042: DEF-finger_index.03.R
+    400044: DEF-finger_index.03.R_end
+    400046: DEF-finger_middle.01.L.01
+    400048: DEF-finger_middle.01.L.01_end
+    400050: DEF-finger_middle.01.L.02
+    400052: DEF-finger_middle.01.L.02_end
+    400054: DEF-finger_middle.01.R.01
+    400056: DEF-finger_middle.01.R.01_end
+    400058: DEF-finger_middle.01.R.02
+    400060: DEF-finger_middle.01.R.02_end
+    400062: DEF-finger_middle.02.L
+    400064: DEF-finger_middle.02.L_end
+    400066: DEF-finger_middle.02.R
+    400068: DEF-finger_middle.02.R_end
+    400070: DEF-finger_middle.03.L
+    400072: DEF-finger_middle.03.L_end
+    400074: DEF-finger_middle.03.R
+    400076: DEF-finger_middle.03.R_end
+    400078: DEF-finger_ring.01.L.01
+    400080: DEF-finger_ring.01.L.01_end
+    400082: DEF-finger_ring.01.L.02
+    400084: DEF-finger_ring.01.L.02_end
+    400086: DEF-finger_ring.01.R.01
+    400088: DEF-finger_ring.01.R.01_end
+    400090: DEF-finger_ring.01.R.02
+    400092: DEF-finger_ring.01.R.02_end
+    400094: DEF-finger_ring.02.L
+    400096: DEF-finger_ring.02.L_end
+    400098: DEF-finger_ring.02.R
+    400100: DEF-finger_ring.02.R_end
+    400102: DEF-finger_ring.03.L
+    400104: DEF-finger_ring.03.L_end
+    400106: DEF-finger_ring.03.R
+    400108: DEF-finger_ring.03.R_end
+    400110: DEF-foot.L
+    400112: DEF-foot.L_end
+    400114: DEF-foot.R
+    400116: DEF-foot.R_end
+    400118: DEF-forearm.L.01
+    400120: DEF-forearm.L.01_end
+    400122: DEF-forearm.L.02
+    400124: DEF-forearm.L.02_end
+    400126: DEF-forearm.R.01
+    400128: DEF-forearm.R.01_end
+    400130: DEF-forearm.R.02
+    400132: DEF-forearm.R.02_end
+    400134: DEF-hand.L
+    400136: DEF-hand.L_end
+    400138: DEF-hand.R
+    400140: DEF-hand.R_end
+    400142: DEF-head
+    400144: DEF-head_end
+    400146: DEF-hips
+    400148: DEF-hips_end
+    400150: DEF-neck
+    400152: DEF-neck_end
+    400154: DEF-palm.01.L
+    400156: DEF-palm.01.L_end
+    400158: DEF-palm.01.R
+    400160: DEF-palm.01.R_end
+    400162: DEF-palm.02.L
+    400164: DEF-palm.02.L_end
+    400166: DEF-palm.02.R
+    400168: DEF-palm.02.R_end
+    400170: DEF-palm.03.L
+    400172: DEF-palm.03.L_end
+    400174: DEF-palm.03.R
+    400176: DEF-palm.03.R_end
+    400178: DEF-ribs
+    400180: DEF-ribs_end
+    400182: DEF-shin.L.01
+    400184: DEF-shin.L.01_end
+    400186: DEF-shin.L.02
+    400188: DEF-shin.L.02_end
+    400190: DEF-shin.R.01
+    400192: DEF-shin.R.01_end
+    400194: DEF-shin.R.02
+    400196: DEF-shin.R.02_end
+    400198: DEF-shoulder.L
+    400200: DEF-shoulder.L_end
+    400202: DEF-shoulder.R
+    400204: DEF-shoulder.R_end
+    400206: DEF-spine
+    400208: DEF-spine_end
+    400210: DEF-thigh.L.01
+    400212: DEF-thigh.L.01_end
+    400214: DEF-thigh.L.02
+    400216: DEF-thigh.L.02_end
+    400218: DEF-thigh.R.01
+    400220: DEF-thigh.R.01_end
+    400222: DEF-thigh.R.02
+    400224: DEF-thigh.R.02_end
+    400226: DEF-thumb.01.L.01
+    400228: DEF-thumb.01.L.01_end
+    400230: DEF-thumb.01.L.02
+    400232: DEF-thumb.01.L.02_end
+    400234: DEF-thumb.01.R.01
+    400236: DEF-thumb.01.R.01_end
+    400238: DEF-thumb.01.R.02
+    400240: DEF-thumb.01.R.02_end
+    400242: DEF-thumb.02.L
+    400244: DEF-thumb.02.L_end
+    400246: DEF-thumb.02.R
+    400248: DEF-thumb.02.R_end
+    400250: DEF-thumb.03.L
+    400252: DEF-thumb.03.L_end
+    400254: DEF-thumb.03.R
+    400256: DEF-thumb.03.R_end
+    400258: DEF-toe.L
+    400260: DEF-toe.L_end
+    400262: DEF-toe.R
+    400264: DEF-toe.R_end
+    400266: DEF-upper_arm.L.01
+    400268: DEF-upper_arm.L.01_end
+    400270: DEF-upper_arm.L.02
+    400272: DEF-upper_arm.L.02_end
+    400274: DEF-upper_arm.R.01
+    400276: DEF-upper_arm.R.01_end
+    400278: DEF-upper_arm.R.02
+    400280: DEF-upper_arm.R.02_end
+    400282: finger_index.01.L
+    400284: finger_index.01.L 1
+    400286: finger_index.01.L 2
+    400288: finger_index.01.R
+    400290: finger_index.01.R 1
+    400292: finger_index.01.R 2
+    400294: finger_index.02.L
+    400296: finger_index.02.L 1
+    400298: finger_index.02.L 2
+    400300: finger_index.02.R
+    400302: finger_index.02.R 1
+    400304: finger_index.02.R 2
+    400306: finger_index.03.L
+    400308: finger_index.03.L 1
+    400310: finger_index.03.L 2
+    400312: finger_index.03.L_end
+    400314: finger_index.03.L_end 1
+    400316: finger_index.03.L_end 2
+    400318: finger_index.03.R
+    400320: finger_index.03.R 1
+    400322: finger_index.03.R 2
+    400324: finger_index.03.R_end
+    400326: finger_index.03.R_end 1
+    400328: finger_index.03.R_end 2
+    400330: finger_index.L
+    400332: finger_index.L_end
+    400334: finger_index.R
+    400336: finger_index.R_end
+    400338: finger_middle.01.L
+    400340: finger_middle.01.L 1
+    400342: finger_middle.01.L 2
+    400344: finger_middle.01.R
+    400346: finger_middle.01.R 1
+    400348: finger_middle.01.R 2
+    400350: finger_middle.02.L
+    400352: finger_middle.02.L 1
+    400354: finger_middle.02.L 2
+    400356: finger_middle.02.R
+    400358: finger_middle.02.R 1
+    400360: finger_middle.02.R 2
+    400362: finger_middle.03.L
+    400364: finger_middle.03.L 1
+    400366: finger_middle.03.L 2
+    400368: finger_middle.03.L_end
+    400370: finger_middle.03.L_end 1
+    400372: finger_middle.03.L_end 2
+    400374: finger_middle.03.R
+    400376: finger_middle.03.R 1
+    400378: finger_middle.03.R 2
+    400380: finger_middle.03.R_end
+    400382: finger_middle.03.R_end 1
+    400384: finger_middle.03.R_end 2
+    400386: finger_middle.L
+    400388: finger_middle.L_end
+    400390: finger_middle.R
+    400392: finger_middle.R_end
+    400394: finger_pinky.01.L
+    400396: finger_pinky.01.R
+    400398: finger_pinky.02.L
+    400400: finger_pinky.02.R
+    400402: finger_pinky.03.L
+    400404: finger_pinky.03.L_end
+    400406: finger_pinky.03.R
+    400408: finger_pinky.03.R_end
+    400410: finger_ring.01.L
+    400412: finger_ring.01.L 1
+    400414: finger_ring.01.L 2
+    400416: finger_ring.01.R
+    400418: finger_ring.01.R 1
+    400420: finger_ring.01.R 2
+    400422: finger_ring.02.L
+    400424: finger_ring.02.L 1
+    400426: finger_ring.02.L 2
+    400428: finger_ring.02.R
+    400430: finger_ring.02.R 1
+    400432: finger_ring.02.R 2
+    400434: finger_ring.03.L
+    400436: finger_ring.03.L 1
+    400438: finger_ring.03.L 2
+    400440: finger_ring.03.L_end
+    400442: finger_ring.03.L_end 1
+    400444: finger_ring.03.L_end 2
+    400446: finger_ring.03.R
+    400448: finger_ring.03.R 1
+    400450: finger_ring.03.R 2
+    400452: finger_ring.03.R_end
+    400454: finger_ring.03.R_end 1
+    400456: finger_ring.03.R_end 2
+    400458: finger_ring.L
+    400460: finger_ring.L_end
+    400462: finger_ring.R
+    400464: finger_ring.R_end
+    400466: foot.L
+    400468: foot.L 1
+    400470: foot.L 2
+    400472: foot.R
+    400474: foot.R 1
+    400476: foot.R 2
+    400478: foot_ik.L
+    400480: foot_ik.R
+    400482: foot_roll.L
+    400484: foot_roll.L_end
+    400486: foot_roll.R
+    400488: foot_roll.R_end
+    400490: forearm.L
+    400492: forearm.L 1
+    400494: forearm.L 2
+    400496: forearm.R
+    400498: forearm.R 1
+    400500: forearm.R 2
+    400502: hand.L
+    400504: hand.L 1
+    400506: hand.L 2
+    400508: hand.L_end
+    400510: hand.R
+    400512: hand.R 1
+    400514: hand.R 2
+    400516: hand.R_end
+    400518: hand_ik.L
+    400520: hand_ik.L_end
+    400522: hand_ik.R
+    400524: hand_ik.R_end
+    400526: head
+    400528: head 1
+    400530: head 2
+    400532: head_end
+    400534: head_end 1
+    400536: heel.02.L
+    400538: heel.02.L 1
+    400540: heel.02.L_end
+    400542: heel.02.L_end 1
+    400544: heel.02.R
+    400546: heel.02.R 1
+    400548: heel.02.R_end
+    400550: heel.02.R_end 1
+    400552: heel.L
+    400554: heel.L 1
+    400556: heel.R
+    400558: heel.R 1
+    400560: hips
+    400562: hips 1
+    400564: hips 2
+    400566: Lamp
+    400568: MCH-finger_index.01.L
+    400570: MCH-finger_index.01.L.tip
+    400572: MCH-finger_index.01.L.tip_end
+    400574: MCH-finger_index.01.R
+    400576: MCH-finger_index.01.R.tip
+    400578: MCH-finger_index.01.R.tip_end
+    400580: MCH-finger_index.02.L
+    400582: MCH-finger_index.02.R
+    400584: MCH-finger_index.03.L
+    400586: MCH-finger_index.03.R
+    400588: MCH-finger_middle.01.L
+    400590: MCH-finger_middle.01.L.tip
+    400592: MCH-finger_middle.01.L.tip_end
+    400594: MCH-finger_middle.01.R
+    400596: MCH-finger_middle.01.R.tip
+    400598: MCH-finger_middle.01.R.tip_end
+    400600: MCH-finger_middle.02.L
+    400602: MCH-finger_middle.02.R
+    400604: MCH-finger_middle.03.L
+    400606: MCH-finger_middle.03.R
+    400608: MCH-finger_ring.01.L
+    400610: MCH-finger_ring.01.L.tip
+    400612: MCH-finger_ring.01.L.tip_end
+    400614: MCH-finger_ring.01.R
+    400616: MCH-finger_ring.01.R.tip
+    400618: MCH-finger_ring.01.R.tip_end
+    400620: MCH-finger_ring.02.L
+    400622: MCH-finger_ring.02.R
+    400624: MCH-finger_ring.03.L
+    400626: MCH-finger_ring.03.R
+    400628: MCH-foot.L
+    400630: MCH-foot.L.rocker.01
+    400632: MCH-foot.L.rocker.02
+    400634: MCH-foot.L.roll.01
+    400636: MCH-foot.L.roll.02
+    400638: MCH-foot.L_end
+    400640: MCH-foot.R
+    400642: MCH-foot.R.rocker.01
+    400644: MCH-foot.R.rocker.02
+    400646: MCH-foot.R.roll.01
+    400648: MCH-foot.R.roll.02
+    400650: MCH-foot.R_end
+    400652: MCH-foot_ik_target.L
+    400654: MCH-foot_ik_target.L_end
+    400656: MCH-foot_ik_target.R
+    400658: MCH-foot_ik_target.R_end
+    400660: MCH-forearm.L.tip
+    400662: MCH-forearm.L.tip_end
+    400664: MCH-forearm.R.tip
+    400666: MCH-forearm.R.tip_end
+    400668: MCH-forearm_ik.L
+    400670: MCH-forearm_ik.L_end
+    400672: MCH-forearm_ik.R
+    400674: MCH-forearm_ik.R_end
+    400676: MCH-head
+    400678: MCH-head.001
+    400680: MCH-head.001_end
+    400682: MCH-head.02
+    400684: MCH-head.socket1
+    400686: MCH-head.socket1_end
+    400688: MCH-head.socket2
+    400690: MCH-head_end
+    400692: MCH-hips.flex
+    400694: MCH-hips.flex_s
+    400696: MCH-hips.reverse
+    400698: MCH-hips.reverse_end
+    400700: MCH-neck
+    400702: MCH-neck.02
+    400704: MCH-neck.child
+    400706: MCH-neck.child_end
+    400708: MCH-neck.follow
+    400710: MCH-neck_end
+    400712: MCH-par_spine
+    400714: MCH-ribs.flex
+    400716: MCH-ribs.flex_s
+    400718: MCH-ribs.reverse
+    400720: MCH-ribs.reverse_end
+    400722: MCH-shin.L.tip
+    400724: MCH-shin.L.tip_end
+    400726: MCH-shin.R.tip
+    400728: MCH-shin.R.tip_end
+    400730: MCH-shin_ik.L
+    400732: MCH-shin_ik.L_end
+    400734: MCH-shin_ik.R
+    400736: MCH-shin_ik.R_end
+    400738: MCH-spine.flex
+    400740: MCH-spine.flex_s
+    400742: MCH-spine.reverse
+    400744: MCH-spine.reverse_end
+    400746: MCH-sub_hips
+    400748: MCH-sub_hips_end
+    400750: MCH-sub_ribs
+    400752: MCH-sub_ribs_end
+    400754: MCH-sub_spine
+    400756: MCH-sub_spine_end
+    400758: MCH-thigh.L.hinge
+    400760: MCH-thigh.L.socket1
+    400762: MCH-thigh.L.socket1_end
+    400764: MCH-thigh.L.socket2
+    400766: MCH-thigh.L.tip
+    400768: MCH-thigh.L.tip_end
+    400770: MCH-thigh.R.hinge
+    400772: MCH-thigh.R.socket1
+    400774: MCH-thigh.R.socket1_end
+    400776: MCH-thigh.R.socket2
+    400778: MCH-thigh.R.tip
+    400780: MCH-thigh.R.tip_end
+    400782: MCH-thigh_ik.L
+    400784: MCH-thigh_ik.R
+    400786: MCH-thumb.01.L
+    400788: MCH-thumb.01.L.tip
+    400790: MCH-thumb.01.L.tip_end
+    400792: MCH-thumb.01.R
+    400794: MCH-thumb.01.R.tip
+    400796: MCH-thumb.01.R.tip_end
+    400798: MCH-thumb.02.L
+    400800: MCH-thumb.02.R
+    400802: MCH-thumb.03.L
+    400804: MCH-thumb.03.R
+    400806: MCH-toe.L.parent
+    400808: MCH-toe.L.socket1
+    400810: MCH-toe.L.socket2
+    400812: MCH-toe.L.socket2_end
+    400814: MCH-toe.R.parent
+    400816: MCH-toe.R.socket1
+    400818: MCH-toe.R.socket2
+    400820: MCH-toe.R.socket2_end
+    400822: MCH-torso.01
+    400824: MCH-torso.02
+    400826: MCH-torso.02_end
+    400828: MCH-upper_arm.L.hinge
+    400830: MCH-upper_arm.L.socket1
+    400832: MCH-upper_arm.L.socket1_end
+    400834: MCH-upper_arm.L.socket2
+    400836: MCH-upper_arm.L.tip
+    400838: MCH-upper_arm.L.tip_end
+    400840: MCH-upper_arm.R.hinge
+    400842: MCH-upper_arm.R.socket1
+    400844: MCH-upper_arm.R.socket1_end
+    400846: MCH-upper_arm.R.socket2
+    400848: MCH-upper_arm.R.tip
+    400850: MCH-upper_arm.R.tip_end
+    400852: MCH-upper_arm_ik.L
+    400854: MCH-upper_arm_ik.R
+    400856: neck
+    400858: neck 1
+    400860: neck 2
+    400862: ORG-finger_index.01.L
+    400864: ORG-finger_index.01.R
+    400866: ORG-finger_index.02.L
+    400868: ORG-finger_index.02.R
+    400870: ORG-finger_index.03.L
+    400872: ORG-finger_index.03.R
+    400874: ORG-finger_middle.01.L
+    400876: ORG-finger_middle.01.R
+    400878: ORG-finger_middle.02.L
+    400880: ORG-finger_middle.02.R
+    400882: ORG-finger_middle.03.L
+    400884: ORG-finger_middle.03.R
+    400886: ORG-finger_ring.01.L
+    400888: ORG-finger_ring.01.R
+    400890: ORG-finger_ring.02.L
+    400892: ORG-finger_ring.02.R
+    400894: ORG-finger_ring.03.L
+    400896: ORG-finger_ring.03.R
+    400898: ORG-foot.L
+    400900: ORG-foot.R
+    400902: ORG-forearm.L
+    400904: ORG-forearm.R
+    400906: ORG-hand.L
+    400908: ORG-hand.R
+    400910: ORG-head
+    400912: ORG-head_end
+    400914: ORG-heel.02.L
+    400916: ORG-heel.02.L_end
+    400918: ORG-heel.02.R
+    400920: ORG-heel.02.R_end
+    400922: ORG-heel.L
+    400924: ORG-heel.R
+    400926: ORG-hips
+    400928: ORG-neck
+    400930: ORG-palm.01.L
+    400932: ORG-palm.01.R
+    400934: ORG-palm.02.L
+    400936: ORG-palm.02.R
+    400938: ORG-palm.03.L
+    400940: ORG-palm.03.R
+    400942: ORG-ribs
+    400944: ORG-shin.L
+    400946: ORG-shin.R
+    400948: ORG-shoulder.L
+    400950: ORG-shoulder.R
+    400952: ORG-spine
+    400954: ORG-thigh.L
+    400956: ORG-thigh.R
+    400958: ORG-thumb.01.L
+    400960: ORG-thumb.01.R
+    400962: ORG-thumb.02.L
+    400964: ORG-thumb.02.R
+    400966: ORG-thumb.03.L
+    400968: ORG-thumb.03.R
+    400970: ORG-toe.L
+    400972: ORG-toe.R
+    400974: ORG-upper_arm.L
+    400976: ORG-upper_arm.R
+    400978: palm.01.L
+    400980: palm.01.L 1
+    400982: palm.01.R
+    400984: palm.01.R 1
+    400986: palm.02.L
+    400988: palm.02.L 1
+    400990: palm.02.R
+    400992: palm.02.R 1
+    400994: palm.03.L
+    400996: palm.03.L 1
+    400998: palm.03.R
+    401000: palm.03.R 1
+    401002: palm.04.L
+    401004: palm.04.R
+    401006: palm.L
+    401008: palm.L_end
+    401010: palm.R
+    401012: palm.R_end
+    401014: Point
+    401016: Point.001
+    401018: Point.002
+    401020: ribs
+    401022: ribs 1
+    401024: ribs 2
+    401026: rig
+    401028: root
+    401030: //RootNode
+    401032: shin.L
+    401034: shin.L 1
+    401036: shin.L 2
+    401038: shin.R
+    401040: shin.R 1
+    401042: shin.R 2
+    401044: shoulder.L
+    401046: shoulder.L 1
+    401048: shoulder.L 2
+    401050: shoulder.L_end
+    401052: shoulder.R
+    401054: shoulder.R 1
+    401056: shoulder.R 2
+    401058: shoulder.R_end
+    401060: spine
+    401062: spine 1
+    401064: spine 2
+    401066: Sun
+    401068: thigh.L
+    401070: thigh.L 1
+    401072: thigh.L 2
+    401074: thigh.R
+    401076: thigh.R 1
+    401078: thigh.R 2
+    401080: thigh_pole.L
+    401082: thigh_pole.L_end
+    401084: thigh_pole.R
+    401086: thigh_pole.R_end
+    401088: thumb.01.L
+    401090: thumb.01.L 1
+    401092: thumb.01.L 2
+    401094: thumb.01.R
+    401096: thumb.01.R 1
+    401098: thumb.01.R 2
+    401100: thumb.02.L
+    401102: thumb.02.L 1
+    401104: thumb.02.L 2
+    401106: thumb.02.R
+    401108: thumb.02.R 1
+    401110: thumb.02.R 2
+    401112: thumb.03.L
+    401114: thumb.03.L 1
+    401116: thumb.03.L 2
+    401118: thumb.03.L_end
+    401120: thumb.03.L_end 1
+    401122: thumb.03.L_end 2
+    401124: thumb.03.R
+    401126: thumb.03.R 1
+    401128: thumb.03.R 2
+    401130: thumb.03.R_end
+    401132: thumb.03.R_end 1
+    401134: thumb.03.R_end 2
+    401136: thumb.L
+    401138: thumb.L_end
+    401140: thumb.R
+    401142: thumb.R_end
+    401144: toe.L
+    401146: toe.L 1
+    401148: toe.L 2
+    401150: toe.L_end
+    401152: toe.L_end 1
+    401154: toe.L_end 2
+    401156: toe.R
+    401158: toe.R 1
+    401160: toe.R 2
+    401162: toe.R_end
+    401164: toe.R_end 1
+    401166: toe.R_end 2
+    401168: torso
+    401170: upper_arm.L
+    401172: upper_arm.L 1
+    401174: upper_arm.L 2
+    401176: upper_arm.R
+    401178: upper_arm.R 1
+    401180: upper_arm.R 2
+    401182: upper_arm_pole.L
+    401184: upper_arm_pole.L_end
+    401186: upper_arm_pole.R
+    401188: upper_arm_pole.R_end
+    401190: VIS-foot_ik.L
+    401192: VIS-foot_ik.L_end
+    401194: VIS-foot_ik.R
+    401196: VIS-foot_ik.R_end
+    401198: VIS-hand_ik.L
+    401200: VIS-hand_ik.L_end
+    401202: VIS-hand_ik.R
+    401204: VIS-hand_ik.R_end
+    401206: VIS-thigh_pole.L
+    401208: VIS-thigh_pole.L_end
+    401210: VIS-thigh_pole.R
+    401212: VIS-thigh_pole.R_end
+    401214: VIS-upper_arm_pole.L
+    401216: VIS-upper_arm_pole.L_end
+    401218: VIS-upper_arm_pole.R
+    401220: VIS-upper_arm_pole.R_end
+    401222: WGT-finger_index.01.L
+    401224: WGT-finger_index.01.R
+    401226: WGT-finger_index.02.L
+    401228: WGT-finger_index.02.R
+    401230: WGT-finger_index.03.L
+    401232: WGT-finger_index.03.R
+    401234: WGT-finger_index.L
+    401236: WGT-finger_index.R
+    401238: WGT-finger_middle.01.L
+    401240: WGT-finger_middle.01.R
+    401242: WGT-finger_middle.02.L
+    401244: WGT-finger_middle.02.R
+    401246: WGT-finger_middle.03.L
+    401248: WGT-finger_middle.03.R
+    401250: WGT-finger_middle.L
+    401252: WGT-finger_middle.R
+    401254: WGT-finger_ring.01.L
+    401256: WGT-finger_ring.01.R
+    401258: WGT-finger_ring.02.L
+    401260: WGT-finger_ring.02.R
+    401262: WGT-finger_ring.03.L
+    401264: WGT-finger_ring.03.R
+    401266: WGT-finger_ring.L
+    401268: WGT-finger_ring.R
+    401270: WGT-foot.L
+    401272: WGT-foot.R
+    401274: WGT-foot_ik.L
+    401276: WGT-foot_ik.R
+    401278: WGT-foot_roll.L
+    401280: WGT-foot_roll.R
+    401282: WGT-forearm.L
+    401284: WGT-forearm.R
+    401286: WGT-hand.L
+    401288: WGT-hand.R
+    401290: WGT-hand_ik.L
+    401292: WGT-hand_ik.R
+    401294: WGT-head
+    401296: WGT-hips
+    401298: WGT-neck
+    401300: WGT-palm.L
+    401302: WGT-palm.R
+    401304: WGT-ribs
+    401306: WGT-root
+    401308: WGT-shin.L
+    401310: WGT-shin.R
+    401312: WGT-shoulder.L
+    401314: WGT-shoulder.R
+    401316: WGT-spine
+    401318: WGT-thigh.L
+    401320: WGT-thigh.R
+    401322: WGT-thigh_pole.L
+    401324: WGT-thigh_pole.R
+    401326: WGT-thumb.01.L
+    401328: WGT-thumb.01.R
+    401330: WGT-thumb.02.L
+    401332: WGT-thumb.02.R
+    401334: WGT-thumb.03.L
+    401336: WGT-thumb.03.R
+    401338: WGT-thumb.L
+    401340: WGT-thumb.R
+    401342: WGT-toe.L
+    401344: WGT-toe.R
+    401346: WGT-torso
+    401348: WGT-upper_arm.L
+    401350: WGT-upper_arm.R
+    401352: WGT-upper_arm_pole.L
+    401354: WGT-upper_arm_pole.R
+    401356: WGT-VIS-foot_ik.L
+    401358: WGT-VIS-foot_ik.R
+    401360: WGT-VIS-hand_ik.L
+    401362: WGT-VIS-hand_ik.R
+    401364: WGT-VIS-thigh_pole.L
+    401366: WGT-VIS-thigh_pole.R
+    401368: WGT-VIS-upper_arm_pole.L
+    401370: WGT-VIS-upper_arm_pole.R
+    2300000: WGT-finger_index.01.L
+    2300002: WGT-finger_index.01.R
+    2300004: WGT-finger_index.02.L
+    2300006: WGT-finger_index.02.R
+    2300008: WGT-finger_index.03.L
+    2300010: WGT-finger_index.03.R
+    2300012: WGT-finger_index.L
+    2300014: WGT-finger_index.R
+    2300016: WGT-finger_middle.01.L
+    2300018: WGT-finger_middle.01.R
+    2300020: WGT-finger_middle.02.L
+    2300022: WGT-finger_middle.02.R
+    2300024: WGT-finger_middle.03.L
+    2300026: WGT-finger_middle.03.R
+    2300028: WGT-finger_middle.L
+    2300030: WGT-finger_middle.R
+    2300032: WGT-finger_ring.01.L
+    2300034: WGT-finger_ring.01.R
+    2300036: WGT-finger_ring.02.L
+    2300038: WGT-finger_ring.02.R
+    2300040: WGT-finger_ring.03.L
+    2300042: WGT-finger_ring.03.R
+    2300044: WGT-finger_ring.L
+    2300046: WGT-finger_ring.R
+    2300048: WGT-foot.L
+    2300050: WGT-foot.R
+    2300052: WGT-foot_ik.L
+    2300054: WGT-foot_ik.R
+    2300056: WGT-foot_roll.L
+    2300058: WGT-foot_roll.R
+    2300060: WGT-forearm.L
+    2300062: WGT-forearm.R
+    2300064: WGT-hand.L
+    2300066: WGT-hand.R
+    2300068: WGT-hand_ik.L
+    2300070: WGT-hand_ik.R
+    2300072: WGT-head
+    2300074: WGT-hips
+    2300076: WGT-neck
+    2300078: WGT-palm.L
+    2300080: WGT-palm.R
+    2300082: WGT-ribs
+    2300084: WGT-root
+    2300086: WGT-shin.L
+    2300088: WGT-shin.R
+    2300090: WGT-shoulder.L
+    2300092: WGT-shoulder.R
+    2300094: WGT-spine
+    2300096: WGT-thigh.L
+    2300098: WGT-thigh.R
+    2300100: WGT-thigh_pole.L
+    2300102: WGT-thigh_pole.R
+    2300104: WGT-thumb.01.L
+    2300106: WGT-thumb.01.R
+    2300108: WGT-thumb.02.L
+    2300110: WGT-thumb.02.R
+    2300112: WGT-thumb.03.L
+    2300114: WGT-thumb.03.R
+    2300116: WGT-thumb.L
+    2300118: WGT-thumb.R
+    2300120: WGT-toe.L
+    2300122: WGT-toe.R
+    2300124: WGT-torso
+    2300126: WGT-upper_arm.L
+    2300128: WGT-upper_arm.R
+    2300130: WGT-upper_arm_pole.L
+    2300132: WGT-upper_arm_pole.R
+    2300134: WGT-VIS-foot_ik.L
+    2300136: WGT-VIS-foot_ik.R
+    2300138: WGT-VIS-hand_ik.L
+    2300140: WGT-VIS-hand_ik.R
+    2300142: WGT-VIS-thigh_pole.L
+    2300144: WGT-VIS-thigh_pole.R
+    2300146: WGT-VIS-upper_arm_pole.L
+    2300148: WGT-VIS-upper_arm_pole.R
+    3300000: WGT-finger_index.01.L
+    3300002: WGT-finger_index.01.R
+    3300004: WGT-finger_index.02.L
+    3300006: WGT-finger_index.02.R
+    3300008: WGT-finger_index.03.L
+    3300010: WGT-finger_index.03.R
+    3300012: WGT-finger_index.L
+    3300014: WGT-finger_index.R
+    3300016: WGT-finger_middle.01.L
+    3300018: WGT-finger_middle.01.R
+    3300020: WGT-finger_middle.02.L
+    3300022: WGT-finger_middle.02.R
+    3300024: WGT-finger_middle.03.L
+    3300026: WGT-finger_middle.03.R
+    3300028: WGT-finger_middle.L
+    3300030: WGT-finger_middle.R
+    3300032: WGT-finger_ring.01.L
+    3300034: WGT-finger_ring.01.R
+    3300036: WGT-finger_ring.02.L
+    3300038: WGT-finger_ring.02.R
+    3300040: WGT-finger_ring.03.L
+    3300042: WGT-finger_ring.03.R
+    3300044: WGT-finger_ring.L
+    3300046: WGT-finger_ring.R
+    3300048: WGT-foot.L
+    3300050: WGT-foot.R
+    3300052: WGT-foot_ik.L
+    3300054: WGT-foot_ik.R
+    3300056: WGT-foot_roll.L
+    3300058: WGT-foot_roll.R
+    3300060: WGT-forearm.L
+    3300062: WGT-forearm.R
+    3300064: WGT-hand.L
+    3300066: WGT-hand.R
+    3300068: WGT-hand_ik.L
+    3300070: WGT-hand_ik.R
+    3300072: WGT-head
+    3300074: WGT-hips
+    3300076: WGT-neck
+    3300078: WGT-palm.L
+    3300080: WGT-palm.R
+    3300082: WGT-ribs
+    3300084: WGT-root
+    3300086: WGT-shin.L
+    3300088: WGT-shin.R
+    3300090: WGT-shoulder.L
+    3300092: WGT-shoulder.R
+    3300094: WGT-spine
+    3300096: WGT-thigh.L
+    3300098: WGT-thigh.R
+    3300100: WGT-thigh_pole.L
+    3300102: WGT-thigh_pole.R
+    3300104: WGT-thumb.01.L
+    3300106: WGT-thumb.01.R
+    3300108: WGT-thumb.02.L
+    3300110: WGT-thumb.02.R
+    3300112: WGT-thumb.03.L
+    3300114: WGT-thumb.03.R
+    3300116: WGT-thumb.L
+    3300118: WGT-thumb.R
+    3300120: WGT-toe.L
+    3300122: WGT-toe.R
+    3300124: WGT-torso
+    3300126: WGT-upper_arm.L
+    3300128: WGT-upper_arm.R
+    3300130: WGT-upper_arm_pole.L
+    3300132: WGT-upper_arm_pole.R
+    3300134: WGT-VIS-foot_ik.L
+    3300136: WGT-VIS-foot_ik.R
+    3300138: WGT-VIS-hand_ik.L
+    3300140: WGT-VIS-hand_ik.R
+    3300142: WGT-VIS-thigh_pole.L
+    3300144: WGT-VIS-thigh_pole.R
+    3300146: WGT-VIS-upper_arm_pole.L
+    3300148: WGT-VIS-upper_arm_pole.R
+    4300000: Cube.001
+    7400000: rig|rigAction
+    9500000: //RootNode
+    13700000: Cube.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
